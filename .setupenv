@@ -1,0 +1,10 @@
+# source file
+# export paths and variables for build tools
+
+export TARGET_NAME='projectName'
+
+export TOP=$PWD
+export START_OF_FLASH=0x8000000
+export BUILD_PATH=$TOP/build
+export VOL_NAME=stm32_buildtools_volume
+export ARM_PATH=/home/docker/arm/bin/
